@@ -1,0 +1,17 @@
+01-15 21:48:45.256 6780-6780/? I/art: Not late-enabling -Xcheck:jni (already on)
+01-15 21:48:45.257 6780-6780/? W/art: Unexpected CPU variant for X86 using defaults: x86
+01-15 21:48:45.289 6780-6787/? I/art: Debugger is no longer active
+01-15 21:48:45.289 6780-6787/? I/art: Starting a blocking GC Instrumentation
+01-15 21:48:45.293 6780-6780/? W/System: ClassLoader referenced unknown path: /data/app/edu.washington.jz39.activityspy-1/lib/x86
+01-15 21:48:45.313 6780-6780/? I/InstantRun: Instant Run Runtime started. Android package is edu.washington.jz39.activityspy, real application class is null.
+                                             
+                                             [ 01-15 21:48:45.333  1510: 1531 D/         ]
+                                             HostConnection::get() New Host Connection established 0x911e2e80, tid 1531
+01-15 21:48:45.631 6780-6780/? W/System: ClassLoader referenced unknown path: /data/app/edu.washington.jz39.activityspy-1/lib/x86
+01-15 21:48:45.861 6780-6780/? I/MainActivity: onCreate event fired
+01-15 21:48:46.011 6780-6799/? I/OpenGLRenderer: Initialized EGL, version 1.4
+01-15 21:48:46.011 6780-6799/? D/OpenGLRenderer: Swap behavior 1
+01-15 21:48:46.235 6780-6799/? E/EGL_emulation: tid 6799: eglSurfaceAttrib(1146): error 0x3009 (EGL_BAD_MATCH)
+01-15 21:48:46.235 6780-6799/? W/OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0xb06b9460, error=EGL_BAD_MATCH
+01-15 21:48:54.346 6780-6780/edu.washington.jz39.activityspy E/MainActivity: We're going down, Captain
+01-15 21:49:23.000 6780-6787/edu.washington.jz39.activityspy W/art: Suspending all threads took: 7.579ms
