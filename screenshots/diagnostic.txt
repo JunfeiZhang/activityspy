@@ -1,22 +1,21 @@
 
-01/16 14:51:11: Launching app
+01/16 15:03:38: Launching app
 $ adb push C:\OneDrive\UW\INFO448\activityspy\app\build\outputs\apk\app-debug.apk /data/local/tmp/edu.washington.jz39.activityspy
 $ adb shell pm install -r "/data/local/tmp/edu.washington.jz39.activityspy"
 Success
 
 
 $ adb shell am start -n "edu.washington.jz39.activityspy/edu.washington.jz39.activityspy.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
-Client not ready yet..Connected to process 2341 on device emulator-5554
-W/System: ClassLoader referenced unknown path: /data/app/edu.washington.jz39.activityspy-2/lib/x86
-I/InstantRun: Instant Run Runtime started. Android package is edu.washington.jz39.activityspy, real application class is null.
-W/System: ClassLoader referenced unknown path: /data/app/edu.washington.jz39.activityspy-2/lib/x86
+Connected to process 2705 on device emulator-5554
+W/System: ClassLoader referenced unknown path: /data/app/edu.washington.jz39.activityspy-1/lib/x86
 I/MainActivity: onCreate event fired
 I/MainActivity: onStart event fired
 I/MainActivity: onResume event fired
 I/OpenGLRenderer: Initialized EGL, version 1.4
 D/OpenGLRenderer: Swap behavior 1
-E/EGL_emulation: tid 2441: eglSurfaceAttrib(1146): error 0x3009 (EGL_BAD_MATCH)
-W/OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x9977ddc0, error=EGL_BAD_MATCH
+E/EGL_emulation: tid 2726: eglSurfaceAttrib(1146): error 0x3009 (EGL_BAD_MATCH)
+W/OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0xa37f0ea0, error=EGL_BAD_MATCH
 I/MainActivity: onPause event fired
 I/MainActivity: onStop event fired
 E/MainActivity: We're going down, Captain
+Application terminated.
